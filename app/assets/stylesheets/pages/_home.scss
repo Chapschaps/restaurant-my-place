@@ -1,1 +1,7 @@
-// Specific CSS for your home-page
+.photos-carousel {
+  // background-size: cover;
+  object-fit: cover;
+  width: 100vw;
+  max-height: 80vh;
+  background-position: center;
+}

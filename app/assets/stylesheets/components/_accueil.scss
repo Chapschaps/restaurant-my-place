@@ -1,0 +1,45 @@
+.photos-carousel {
+  // background-size: cover;
+  object-fit: cover;
+  width: 100vw;
+  background-position: center;
+}
+
+
+// Smallest device
+@media (min-width: 100px) and (max-width: 575px) {
+  .photos-carousel {
+    max-height: 20vh !important;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  .photos-carousel {
+    max-height: 30vh !important;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .photos-carousel {
+    max-height: 80vh !important;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  .photos-carousel {
+    max-height: 80vh !important;
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  .photos-carousel {
+    max-height: 80vh !important;
+  }
+}
+
+
+
