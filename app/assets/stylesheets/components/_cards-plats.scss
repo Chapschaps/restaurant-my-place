@@ -19,30 +19,6 @@
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
 
-.card1 {
-  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(myplace21);
-}
-
-.card2 {
-  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(myplace22);
-}
-
-.card3 {
-  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(myplace24);
-}
-
-.card4 {
-  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(myplace23);
-}
-
-.card5 {
-  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(myplace3);
-}
-
-.card6 {
-  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(myplace25);
-}
-
 // Smallest device
 @media (min-width: 100px) and (max-width: 575px) {
   .cards {
