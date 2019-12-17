@@ -10,18 +10,21 @@
 // Smallest device
 @media (min-width: 100px) and (max-width: 575px) {
   .plats-photo {
+    display: none;
   }
 }
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
   .plats-photo {
+    display: none;
   }
 }
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
   .plats-photo {
+    display: none;
   }
 }
 
@@ -32,6 +35,7 @@
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
+    display: block;
   }
 }
 
@@ -42,5 +46,6 @@
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
+    display: block;
   }
 }
