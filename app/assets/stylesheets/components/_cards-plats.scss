@@ -1,50 +1,79 @@
-.plat-photo-texte {
+.cards {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 16px;
-  max-width: 100%;
-  overflow-x: hidden;
 }
 
-.photo-plat {
+.card-category {
+  background-size: cover;
   background-position: center;
-  width: 60vh;
-  margin-bottom: 1em;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
   border-radius: 5px;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
 
+.card1 {
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(myplace21);
+}
+
+.card2 {
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(myplace22);
+}
+
+.card3 {
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(myplace24);
+}
+
+.card4 {
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(myplace23);
+}
+
+.card5 {
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(myplace3);
+}
+
+.card6 {
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(myplace25);
+}
+
 // Smallest device
 @media (min-width: 100px) and (max-width: 575px) {
-  .plat-photo-texte {
+  .cards {
     grid-template-columns: 1fr;
   }
 }
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
-  .plat-photo-texte {
+  .cards {
     grid-template-columns: 1fr;
   }
 }
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
-  .plat-photo-texte {
+  .cards {
     grid-template-columns: 1fr 1fr;
   }
 }
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
-  .plat-photo-texte {
-    grid-template-columns: 1fr 1fr;
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
-  .plat-photo-texte {
-    grid-template-columns: 1fr 1fr;
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }

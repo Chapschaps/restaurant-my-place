@@ -62,15 +62,34 @@
 <section id="la-carte">
   <div class="container">
     <h1 class="title-section">La carte</h1>
-    <div class="plat-photo-texte">
-      <%= image_tag "myplace21.jpg", class:"photo-plat", alt:"Salade" %>
-      <div class="descrition-plat">
-        <h2>Salades</h2>
-        <p>Des salades à base de ...
+    <%= render 'shared/cards-plats' %>
+    <h3 class="link-carte">
+      <%= link_to "Découvrez notre carte de nos plats", "/documents/carte.pdf", target: "_blank" %>
+    </h3>
+  </div>
+</section>
+
+<br>
+
+<section id="le-brunch">
+  <div class="container">
+    <h1 class="title-section">Le brunch</h1>
+    <div class="brunch-card">
+      <%= image_tag "myplace7.jpg", class:"photo-brunch", alt:"Salade" %>
+      <div class="description-brunch">
+        <h2>Venez déguster notre brunch chaque week-end</h2>
+        <p>My place vous accueille chaque samedi et dimanche avec son brunch entre 11h30 et 17h !
       </div>
     </div>
   </div>
+</section>
 
+<br>
+
+<section id="informations">
+  <div class="container">
+    <h1 class="title-section">Informations</h1>
+  </div>
 </section>
 
 <br>
