@@ -1,13 +1,27 @@
 .title-section {
   text-align: center;
-  border-bottom: 1px solid;
   margin: 1.5em;
+  margin-bottom: 0.5em;
 }
 
-h1 {
+.trait-title {
+  border-bottom: 2px solid $blue;
+  opacity: 0.3;
+  justify-content: center;
+  margin: 0 auto;
+  width: 30%;
+  margin-bottom: 1.5em;
+}
+
+h2 {
   color: $blue;
 }
 
 p {
   line-height: 150%;
+  color: #333333;
+}
+
+h1 {
+  font-size: 1em;
 }

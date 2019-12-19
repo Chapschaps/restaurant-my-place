@@ -1,76 +1,55 @@
-.brunch-card {
+.contact-informations {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 16px;
 }
 
-.photo-brunch {
-  height: 70vh;
-  justify-content: center;
-  align-items: center;
-  border-radius: 5px;
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
-}
-
-.description-brunch {
+.infos {
   text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   p {
-    margin-top: 2em;
+    margin: 0.3px;
+    font-weight: lighter;
+    color: #333333;
+  }
+  h3 {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin: 0px;
+    margin-top: 0.3em;
   }
 }
 
 // Smallest device
 @media (min-width: 100px) and (max-width: 575px) {
-  .brunch-card {
+  .contact-informations {
     grid-template-columns: 1fr;
-    justify-content: center;
-    align-items: center;
-  }
-  .photo-brunch {
-    height: 35vh;
   }
 }
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
-  .brunch-card {
+  .contact-informations {
     grid-template-columns: 1fr;
-  }
-  .photo-brunch {
-    height: 35vh;
   }
 }
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
-  .brunch-card {
+  .contact-informations {
     grid-template-columns: 1fr;
-  }
-  .photo-brunch {
-    height: 40vh;
   }
 }
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
-  .brunch-card {
+  .contact-informations {
     grid-template-columns: 1fr 1fr;
-  }
-  .photo-brunch {
-    height: 70vh;
   }
 }
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
-  .brunch-card {
+  .contact-informations {
     grid-template-columns: 1fr 1fr;
-  }
-  .photo-brunch {
-    height: 70vh;
   }
 }

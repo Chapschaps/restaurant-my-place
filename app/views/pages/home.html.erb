@@ -32,21 +32,22 @@
 
 <section id="le-restaurant">
   <div class="container">
-    <h1 class="title-section">Le restaurant</h1>
+    <h2 class="title-section">Le restaurant</h2>
+    <div class="trait-title"></div>
     <div class="description-restaurant">
       <div class="adj-photo">
         <%= image_tag "myplace10.jpg", class:"photo-desc", alt:"Décoration d'intérieur 1" %>
-        <h2>Chaleureux</h2>
+        <h3>Chaleureux</h3>
         <p>Une ambiance apaisante, chaleureuse et une décoration naturelle constituée d’éléments en bois et de végétaux.</p>
       </div>
       <div class="adj-photo">
         <%= image_tag "myplace11.jpg", class:"photo-desc", alt:"Décoration d'intérieur 2" %>
-        <h2>Sain et bon</h2>
+        <h3>Sain et bon</h3>
         <p>Une cuisine bonne pour le corps et l’esprit. Ici, les soupes, salades et cakes sont faits maison.</p>
       </div>
       <div class="adj-photo">
         <%= image_tag "myplace14.jpg", class:"photo-desc", alt:"Décoration d'intérieur 3" %>
-        <h2>Accueillant</h2>
+        <h3>Accueillant</h3>
         <p>Un endroit à vous, pour vous ressourcer et reprendre des forces dans le calme et la sérénité.</p>
       </div>
     </div>
@@ -62,7 +63,8 @@
 
 <section id="la-carte">
   <div class="container">
-    <h1 class="title-section">La carte</h1>
+    <h2 class="title-section">La carte</h2>
+    <div class="trait-title"></div>
     <%= render 'shared/cards-plats' %>
     <div class="link-carte">
       <%= link_to "Découvrez notre carte de nos plats", "/documents/la-carte-my-place.pdf", target: "_blank", class:"btn btn-ghost" %>
@@ -74,11 +76,12 @@
 
 <section id="le-brunch">
   <div class="container">
-    <h1 class="title-section">Le brunch</h1>
+    <h2 class="title-section">Le brunch</h2>
+    <div class="trait-title"></div>
     <div class="brunch-card">
       <%= image_tag "myplace7.jpg", class:"photo-brunch", alt:"Salade" %>
       <div class="description-brunch">
-        <h2>Venez déguster notre brunch chaque week-end</h2>
+        <h3>Venez déguster notre brunch chaque week-end</h3>
         <p>My place vous accueille chaque samedi et dimanche avec son brunch entre 11h30 et 15h ! Venez profiter de notre sélection de thé, café et chocolat chaud maison, notre jus de pomme artisanal bio, ainsi que de notre pain frais avec ses confitures, de nos œufs brouillés, tartes salées, salades composées, et de notre variété de desserts.</p>
       </div>
     </div>
@@ -89,7 +92,22 @@
 
 <section id="contact">
   <div class="container">
-    <h1 class="title-section">Contact</h1>
+    <h2 class="title-section">Contact</h2>
+    <div class="trait-title"></div>
+    <div class="contact-informations">
+      <div class="infos">
+        <h3>Restaurant My Place Puteaux</h3>
+        <p>6 Boulevard Richard Wallace, Puteaux, 92800</p>
+        <p>Téléphone : +33 6 22 13 52 76</p>
+        <h3>Ouvert 7 jours sur 7</h3>
+        <p>De 11h30 à 15h du lundi au vendredi</p>
+        <p>De 11h30 à 15h le week-end pour notre brunch</p>
+        <h3>Contact privatisation</h3>
+        <p>Pour les réservations de groupe, les petit-déjeuner d’affaires ou les événements familiaux</p>
+        <p>Contact au +33 6 22 13 52 76</p>
+      </div>
+      <div class="equipe"></div>
+    </div>
   </div>
 </section>
 
