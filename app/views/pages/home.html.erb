@@ -64,9 +64,9 @@
   <div class="container">
     <h1 class="title-section">La carte</h1>
     <%= render 'shared/cards-plats' %>
-    <h3 class="link-carte">
-      <%= link_to "Découvrez notre carte de nos plats", "/documents/carte.pdf", target: "_blank" %>
-    </h3>
+    <div class="link-carte">
+      <%= link_to "Découvrez notre carte de nos plats", "/documents/la-carte-my-place.pdf", target: "_blank", class:"btn btn-ghost" %>
+    </div>
   </div>
 </section>
 
@@ -79,7 +79,7 @@
       <%= image_tag "myplace7.jpg", class:"photo-brunch", alt:"Salade" %>
       <div class="description-brunch">
         <h2>Venez déguster notre brunch chaque week-end</h2>
-        <p>My place vous accueille chaque samedi et dimanche avec son brunch entre 11h30 et 17h !
+        <p>My place vous accueille chaque samedi et dimanche avec son brunch entre 11h30 et 15h ! Venez profiter de notre sélection de thé, café et chocolat chaud maison, notre jus de pomme artisanal bio, ainsi que de notre pain frais avec ses confitures, de nos œufs brouillés, tartes salées, salades composées, et de notre variété de desserts.</p>
       </div>
     </div>
   </div>
@@ -87,9 +87,9 @@
 
 <br>
 
-<section id="informations">
+<section id="contact">
   <div class="container">
-    <h1 class="title-section">Informations</h1>
+    <h1 class="title-section">Contact</h1>
   </div>
 </section>
 
