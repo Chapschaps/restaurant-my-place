@@ -26,9 +26,8 @@
       <span class="sr-only">Next</span>
     </a>
   </div>
+  <br>
 </section>
-
-<br>
 
 <section id="le-restaurant">
   <div class="container">
@@ -52,14 +51,10 @@
       </div>
     </div>
   </div>
+  <br>
+  <%= render 'shared/photo-scroll' %>
+  <br>
 </section>
-
-<br>
-
-<div class="plats-photo", style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(<%= asset_path 'myplace20.jpg' %>);
-"></div>
-
-<br>
 
 <section id="la-carte">
   <div class="container">
@@ -70,25 +65,25 @@
       <%= link_to "Découvrez notre carte de nos plats", "/documents/la-carte-my-place.pdf", target: "_blank", class:"btn btn-ghost" %>
     </div>
   </div>
+  <br>
 </section>
-
-<br>
 
 <section id="le-brunch" style="background-color: #FAFAFA;">
   <div class="container">
     <h2 class="title-section" data-aos="fade-up">Le brunch</h2>
     <div class="trait-title" data-aos="fade-up"></div>
     <div class="brunch-card" data-aos="fade-up">
-      <%= image_tag "myplace7.jpg", class:"photo-brunch", alt:"Salade" %>
+      <div class="photo-container">
+        <%= image_tag "myplace7.jpg", class:"photo-brunch", alt:"Salade" %>
+      </div>
       <div class="description-brunch">
         <h3>Venez déguster notre brunch chaque week-end</h3>
         <p>My place vous accueille chaque samedi et dimanche avec son brunch entre 11h30 et 15h ! Venez profiter de notre sélection de thé, café et chocolat chaud maison, notre jus de pomme artisanal bio, ainsi que de notre pain frais avec ses confitures, de nos œufs brouillés, tartes salées, salades composées, et de notre variété de desserts.</p>
       </div>
     </div>
   </div>
+  <br>
 </section>
-
-<br>
 
 <section id="contact">
   <div class="container">
@@ -111,8 +106,7 @@
       <div class="equipe"></div>
     </div>
   </div>
+  <br>
 </section>
-
-<br>
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2623.9159303188767!2d2.239973815675107!3d48.87887917928954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e665188f8b5d63%3A0x40695396faca5043!2sMy%20Place!5e0!3m2!1sfr!2sfr!4v1576585731599!5m2!1sfr!2sfr" height="450" frameborder="0" style="border:0; width:100vw; margin-bottom:0px;" allowfullscreen=""></iframe>
