@@ -21,6 +21,10 @@
   a {
     text-decoration: none;
   }
+  a.current {
+    font-style: italic;
+    font-weight: bold;
+  }
 }
 
 #first-of-list {
