@@ -1,8 +1,10 @@
 const disableAnimAos = () => {
   if (window.innerWidth < 768) {
-    if (document.getElementById('no-animation-mobile')) {
-      const disableFirstAnimation = document.getElementById('no-animation-mobile');
-      delete disableFirstAnimation.dataset.aos;
+    if (document.querySelector('.no-animation-mobile')) {
+      const disableFirstAnimations = document.querySelectorAll('.no-animation-mobile');
+      disableFirstAnimations.forEach((item) => {
+        delete item.dataset.aos;
+      });
       }
     }
 }
