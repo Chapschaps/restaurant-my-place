@@ -1,6 +1,7 @@
 <nav class="navbar sticky-top">
   <span class="navbar-toggle" id="js-navbar-toggle">
-      <i class="fas fa-bars"></i>
+      <i class="fas fa-bars" id="opening-menu"></i>
+      <i class="fas fa-times" style="display:none;" id="closing-menu"></i>
   </span>
   <%= link_to root_path, class: "navbar-brand" do %>
     <span><h1 data-aos="fade-right" data-aos-once="true">My Place</h1></span>
