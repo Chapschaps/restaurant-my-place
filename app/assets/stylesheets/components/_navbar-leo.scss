@@ -20,10 +20,42 @@
   margin: 15px auto;
   a {
     text-decoration: none;
+    position: relative;
+    padding: 8px 0px;
+    vertical-align: middle;
+    font-weight: 300; /* entre regular et light */
+    letter-spacing: 0.025em;
+    color: white;
+    text-decoration: none;
   }
   a.current {
     font-style: italic;
-    font-weight: bold;
+  }
+  a.current:after {
+    opacity: .6;
+    transform: translateY(0);
+  }
+  a:after {
+    content: "";
+    position: absolute;
+    bottom: 0; right: 0px; left: 0px;
+    height: 2px;
+    background-color: white;
+
+    /* Préparation de notre animation */
+    opacity: 0;
+    transform: translateY(5px);
+    transition: all .4s;
+  }
+  /* Le trait va remonter et apparaitre */
+  a:hover:after,
+  a:focus:after {
+    opacity: .6;
+    transform: translateY(0);
+  }
+  /* Je vire outline car juste au-dessus je définis un style :focus */
+  a:focus {
+    outline: none;
   }
 }
 
