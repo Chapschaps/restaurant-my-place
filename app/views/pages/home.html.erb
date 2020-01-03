@@ -62,7 +62,7 @@
     <div class="trait-title" data-aos="fade-up"></div>
     <%= render 'shared/cards-plats' %>
     <div class="link-carte" data-aos="fade-up">
-      <%= link_to "Découvrez notre carte de nos plats", "/documents/la-carte-my-place.pdf", target: "_blank", class:"btn btn-ghost" %>
+      <%= link_to "Découvrez notre carte de nos plats", "/documents/la-carte-my-place.pdf", target: "_blank", class:"btn btn-ghost", onclick:"" %>
     </div>
   </div>
   <br>
@@ -73,7 +73,7 @@
     <h2 class="title-section" data-aos="fade-up">Le brunch</h2>
     <div class="trait-title" data-aos="fade-up"></div>
     <div class="brunch-card" data-aos="fade-up">
-      <div class="photo-container">
+      <div class="photo-container card-link-zoom" onclick="">
         <%= image_tag "myplace7.jpg", class:"photo-brunch", alt:"Salade" %>
       </div>
       <div class="description-brunch">
