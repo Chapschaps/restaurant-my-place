@@ -1,4 +1,4 @@
-<section id="accueil">
+<!-- <section id="accueil">
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -6,15 +6,15 @@
       <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
     </ol>
     <div class="carousel-inner">
-      <div class="carousel-item active">
-        <%= image_tag "myplace1.jpg", class:"d-block photos-carousel", alt:"Terrasse du restaurant my place" %>
+      <div class="carousel-item active"> -->
+        <%#= image_tag "myplace1.jpg", class:"d-block photos-carousel", alt:"Terrasse du restaurant my place" %>
         <!-- <img class="d-block w-100" src="https://www.pizzeriadauteuil-restaurant.com/wp-content/uploads/2018/01/slider2bis.jpg" alt="First slide"> -->
+<!--       </div>
+      <div class="carousel-item">
+        <%#= image_tag "myplace5.jpg", class:"d-block photos-carousel", alt:"Intérieur du restaurant" %>
       </div>
       <div class="carousel-item">
-        <%= image_tag "myplace5.jpg", class:"d-block photos-carousel", alt:"Intérieur du restaurant" %>
-      </div>
-      <div class="carousel-item">
-        <%= image_tag "myplace6.jpg", class:"d-block photos-carousel", alt:"Plat" %>
+        <%#= image_tag "myplace6.jpg", class:"d-block photos-carousel", alt:"Plat" %>
       </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -27,7 +27,9 @@
     </a>
   </div>
   <br>
-</section>
+</section> -->
+
+<%= render 'shared/photo-accueil' %>
 
 <section id="le-restaurant">
   <div class="container">
@@ -68,45 +70,9 @@
   <br>
 </section>
 
-<section id="le-brunch" style="background-color: #FAFAFA;">
-  <div class="container">
-    <h2 class="title-section" data-aos="fade-up">Le brunch</h2>
-    <div class="trait-title" data-aos="fade-up"></div>
-    <div class="brunch-card" data-aos="fade-up">
-      <div class="photo-container card-link-zoom">
-        <%= image_tag "myplace7.jpg", class:"photo-brunch", alt:"Salade" %>
-      </div>
-      <div class="description-brunch">
-        <h3>Venez déguster notre brunch chaque week-end</h3>
-        <p>My place vous accueille chaque samedi et dimanche avec son brunch entre 11h30 et 15h ! Venez profiter de notre sélection de thé, café et chocolat chaud maison, notre jus de pomme artisanal bio, ainsi que de notre pain frais avec ses confitures, de nos œufs brouillés, tartes salées, salades composées, et de notre variété de desserts.</p>
-      </div>
-    </div>
-  </div>
-  <br>
-</section>
+<%= render 'shared/brunch' %>
 
-<section id="contact">
-  <div class="container">
-    <h2 class="title-section" data-aos="fade-up">Contact</h2>
-    <div class="trait-title" data-aos="fade-up"></div>
-    <div class="contact-informations">
-      <div class="infos" data-aos="fade-up">
-        <h3>Restaurant My Place Puteaux</h3>
-        <p>6 Boulevard Richard Wallace, Puteaux, 92800</p>
-        <p>Téléphone : <a href="tel:+33622135276">+33 6 22 13 52 76</a></p>
-        <h3>Ouvert 7 jours sur 7</h3>
-        <p>De 11h30 à 15h du lundi au vendredi</p>
-        <p>De 11h30 à 15h le week-end pour notre brunch</p>
-        <h3>Contact privatisation</h3>
-        <p>Pour les réservations de groupe, les petit-déjeuner d’affaires ou les événements familiaux</p>
-        <p>Contact au <a href="tel:+33622135276">+33 6 22 13 52 76</a></p>
-        <p><em>Retrouvez-nous sur instagram !</em></p>
-        <a href="https://www.instagram.com/restaurant_my_place/", target="blank"><i class="fab fa-instagram"></i></a>
-      </div>
-      <div class="equipe"></div>
-    </div>
-  </div>
-  <br>
-</section>
+<%= render 'shared/contact' %>
+<div style="margin-top: 90px;"></div>
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2623.9159303188767!2d2.239973815675107!3d48.87887917928954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e665188f8b5d63%3A0x40695396faca5043!2sMy%20Place!5e0!3m2!1sfr!2sfr!4v1576585731599!5m2!1sfr!2sfr" height="450" frameborder="0" style="border:0; width:100vw; margin-bottom:0px;" allowfullscreen=""></iframe>
