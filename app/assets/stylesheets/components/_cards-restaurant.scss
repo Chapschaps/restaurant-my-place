@@ -32,12 +32,24 @@
   .description-restaurant {
     grid-template-columns: 1fr;
   }
+  .photo-desc {
+    height: 50vh;
+  }
+  .last-item-grid {
+    display: none;
+  }
 }
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
   .description-restaurant {
     grid-template-columns: 1fr;
+  }
+  .photo-desc {
+    height: 50vh;
+  }
+  .last-item-grid {
+    display: none;
   }
 }
 
@@ -46,12 +58,36 @@
   .description-restaurant {
     grid-template-columns: 1fr 1fr;
   }
+  .photo-desc {
+    height: 50vh;
+  }
+  .last-item-grid {
+    display: none;
+  }
 }
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
   .description-restaurant {
+    grid-template-columns: 1fr 1fr;
+  }
+  .photo-desc {
+    height: 50vh;
+  }
+  .last-item-grid {
+    display: none;
+  }
+}
+
+@media (min-width: 1025px) {
+  .description-restaurant {
     grid-template-columns: 1fr 1fr 1fr;
+  }
+  .photo-desc {
+    height: 65vh;
+  }
+  .last-item-grid {
+    display: block;
   }
 }
 
@@ -59,5 +95,8 @@
 @media (min-width: 1200px) {
   .description-restaurant {
     grid-template-columns: 1fr 1fr 1fr;
+  }
+  .photo-desc {
+    height: 65vh;
   }
 }

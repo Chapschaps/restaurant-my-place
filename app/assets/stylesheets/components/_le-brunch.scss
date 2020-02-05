@@ -66,6 +66,15 @@
     grid-template-columns: 1fr 1fr;
   }
   .photo-brunch {
+    height: 40vh;
+  }
+}
+
+@media (min-width: 1025px) {
+  .brunch-card {
+    grid-template-columns: 1fr 1fr;
+  }
+  .photo-brunch {
     height: 60vh;
   }
 }

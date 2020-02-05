@@ -31,44 +31,9 @@
 
 <%= render 'shared/photo-accueil' %>
 
-<section id="le-restaurant">
-  <div class="container">
-    <h2 class="title-section" data-aos="fade-up">Le restaurant</h2>
-    <div class="trait-title" data-aos="fade-up"></div>
-    <div class="description-restaurant">
-      <div class="adj-photo no-animation-mobile" data-aos="fade-up">
-        <%= image_tag "myplace10.jpg", class:"photo-desc", alt:"Décoration d'intérieur 1" %>
-        <h3>Chaleureux</h3>
-        <p>Une ambiance apaisante, chaleureuse et une décoration naturelle constituée d’éléments en bois et de végétaux.</p>
-      </div>
-      <div class="adj-photo no-animation-mobile" data-aos="fade-up">
-        <%= image_tag "myplace11.jpg", class:"photo-desc", alt:"Décoration d'intérieur 2" %>
-        <h3>Frais et fait maison</h3>
-        <p>Une cuisine bonne pour le corps et l’esprit. Ici, les soupes, salades et cakes sont faits maison.</p>
-      </div>
-      <div class="adj-photo no-animation-mobile" data-aos="fade-up">
-        <%= image_tag "myplace14.jpg", class:"photo-desc", alt:"Décoration d'intérieur 3" %>
-        <h3>Accueillant</h3>
-        <p>Un endroit à vous, pour vous ressourcer et reprendre des forces dans le calme et la sérénité.</p>
-      </div>
-    </div>
-  </div>
-  <br>
-  <%= render 'shared/photo-scroll' %>
-  <br>
-</section>
+<%= render 'shared/le-restaurant' %>
 
-<section id="la-carte">
-  <div class="container">
-    <h2 class="title-section" data-aos="fade-up">La carte</h2>
-    <div class="trait-title" data-aos="fade-up"></div>
-    <%= render 'shared/cards-plats' %>
-    <div class="link-carte" data-aos="fade-up">
-      <%= link_to "Découvrez notre carte de nos plats", "/documents/la-carte-my-place.pdf", target: "_blank", class:"btn btn-ghost" %>
-    </div>
-  </div>
-  <br>
-</section>
+<%= render 'shared/la-carte' %>
 
 <%= render 'shared/brunch' %>
 
