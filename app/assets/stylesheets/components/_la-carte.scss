@@ -2,7 +2,7 @@
   // font-weight: bold;
   // font-style: italic;
   text-align: center;
-  margin: 1em;
+  margin-top: 2em;
 }
 
 .btn-ghost {
@@ -18,4 +18,16 @@
 .btn-ghost:hover {
   opacity: 1;
   color: $blue;
+}
+
+.subhead-carte {
+  text-align: center;
+  margin-left: 15vw;
+  margin-right: 15vw;
+  margin-top: 48px;
+  margin-bottom: 48px;
+  font-size: 1.5em;
+  font-style: italic;
+  font-weight: 10;
+  opacity: 0.9;
 }

@@ -1,0 +1,5 @@
+meta_product_name: "Restaurant My Place"
+meta_title: "Restaurant My Place - Puteaux 92800"
+meta_description: "Venez déguster nos salades à composer, nos tartes salées, nos soupes, nos cakes et nos plats chauds du jour dans une ambiance apaisante et chaleureuse."
+meta_image: "myplace12final.jpg" # should exist in `app/assets/images/`
+# twitter_account: "@product_twitter_account"   # required for Twitter Cards
