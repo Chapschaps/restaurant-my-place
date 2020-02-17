@@ -1,5 +1,6 @@
 const preloader = () => {
   window.addEventListener('load', () => {
+    document.body.style.overflow = 'hidden';
     const preload = document.querySelector('.preloader');
     // var op = 1;  // initial opacity
     // var timer = setInterval(function () {
@@ -12,6 +13,7 @@ const preloader = () => {
     //     op -= op * 0.1;
     // }, 50);
     preload.style.display = "none";
+    document.body.style.overflow = '';
   });
 }
 
