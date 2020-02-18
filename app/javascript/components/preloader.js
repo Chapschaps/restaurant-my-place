@@ -13,6 +13,7 @@ const preloader = () => {
     // }, 50);
     preload.style.display = "none";
     document.body.style.overflow = 'auto';
+    document.body.style.position = 'relative';
   });
 }
 
